@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.box{
+    width: 600px;
+    border: 2px dashed darkgreen;
+    margin: 100px auto;
+    padding: 20px;
+}
+.one{
+    font-size: 20px;
+    color: red;
+    margin: 10px 0;
+    display: block;
+}
+.two,li{
+    height: 30px;
+    background: lime;
+    text-align: center;
+    line-height: 30px;
+}
+span{
+    width: 200px;
+    float: left;
+}
+li{
+    background: paleturquoise;
+}
+ul li:nth-child(even){
+    background: lemonchiffon;
+}
+
+/*----------------------------------*/
+
+.box1{
+    width: 400px;
+    padding: 20px;
+    border: 2px dashed darkgreen;
+    margin: 100px auto;
+}
+#text{
+    width: 250px;
+    height: 20px;
+    border: 1px solid darkgreen;
+    padding: 5px;
+    font-size: 20px;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    color: whitesmoke;
+    background: darkgreen;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
